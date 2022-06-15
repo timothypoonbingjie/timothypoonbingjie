@@ -19,19 +19,19 @@
     margin-top: 14px;
     text-align: center;
   }
+
+  #link {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
   
   #link {
     width: 25%;
     border: #000000 solid;
     background-color: rgb(3, 78, 78);
     padding: 10px;
-  }
-  
-  #link {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
   }
   
   #link a {
@@ -71,7 +71,7 @@
     padding: 15px;
     margin-top: 14px;
     background-color:antiquewhite;
-    border: #000000 solid;
+     border: #000000 solid;
     padding: 10px;
     
   } 
