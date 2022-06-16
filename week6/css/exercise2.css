@@ -8,9 +8,12 @@
 .item8 { grid-area: textcontent; }
 .item9 { grid-area: footer; }
 
-.item3,.item7,.item8{
+.item3,.item7{
   height:150px;
   
+}
+.item8{
+  margin-left: 50px;
 }
 
 .item4,.item5,.item6{
