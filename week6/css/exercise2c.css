@@ -1,0 +1,34 @@
+.item1 { grid-area: logo; }
+.item2 { grid-area: phone; }
+.item3 { grid-area: menu; }
+.item4 { grid-area: image; }
+.item5 { grid-area: textcontent; }
+.item6 { grid-area: sidebar; }
+.item7 { grid-area: footer; }
+
+.item4{
+    height: 150px;
+}
+.item5,.item6{
+    height:200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo logo 1 phone'
+    'logo logo menu menu'
+    'image image image image'
+    'textcontent textcontent textcontent sidebar'
+    'footer footer footer footer';
+    gap: 10px;
+    background-color: #2e3439;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }

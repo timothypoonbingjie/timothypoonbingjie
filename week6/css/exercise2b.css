@@ -1,0 +1,52 @@
+.item1 { grid-area: logo; }
+.item2 { grid-area: phone; }
+.item3 { grid-area: menu; }
+.item4 { grid-area: image; }
+.item5 { grid-area: feat1; }
+.item6 { grid-area: feat2; }
+.item7 { grid-area: feat3; }
+.item8 { grid-area: feat4; }
+.item9 { grid-area: textcontent; }
+.item10 {grid-area: sidebar;}
+.item11 {grid-area: footer;}
+
+.item1{
+  height: 90px;
+}
+.item2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.item4{
+  height: 150px;
+}
+item9{
+  height: 150px;
+  margin-right: 50px;
+}
+.item10{
+  height: 150px;
+}
+.item5,.item6,.item7,.item8{
+  height: 110px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'logo 1 phone phone'
+  'menu menu menu menu'
+  'image image image image'
+  'feat1 feat2 feat3 feat4'
+  'textcontent textcontent textcontent sidebar'
+  'footer footer footer footer';
+  gap: 10px;
+  background-color: #2e3439;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
