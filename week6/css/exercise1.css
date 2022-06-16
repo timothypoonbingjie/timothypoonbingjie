@@ -41,7 +41,7 @@ a:hover{
 }
 .box2{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     
 }
 .travel{
@@ -84,5 +84,5 @@ h3{
 }
 h1{
     font-size: 300%;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
