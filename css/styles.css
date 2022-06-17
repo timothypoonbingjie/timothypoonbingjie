@@ -640,6 +640,15 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.container1{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../assets/img/forest1.jpg);
+  background-size: cover;
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -11472,7 +11481,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color:#0dcaf0;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
