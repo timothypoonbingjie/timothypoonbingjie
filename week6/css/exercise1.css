@@ -5,11 +5,11 @@ body, html{
 .container{
     max-width: 1920px;
     max-height: 1080px;
+    background-image: url(../image/forest1.jpg);
+    background-size: cover;
     position: relative;
     height: 100%;
     background-position: center;
-    background-image: url(../image/forest1.jpg);
-    background-size: cover;
 }
 
 .header{
@@ -19,6 +19,17 @@ body, html{
     justify-content: space-between;
     text-align: center;
 }
+
+.header a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(5, 160, 211);
+    text-decoration: underline;
+}
+
 .logo{
     display: flex;
 }
@@ -29,15 +40,7 @@ body, html{
 .padding{
     padding: 20px;
 }
-.header a{
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-decoration: none;
-}
-a:hover{
-    background-color: rgb(5, 160, 211);
-    text-decoration: underline;
-}
+
 .box1{
     position: absolute;
     top: 230px;
@@ -60,6 +63,11 @@ a:hover{
     left: 170px;
     width: 200px;
 }
+
+h3{
+    color: rgb(255, 255, 255);
+}
+
 .box3{
     position: absolute;
     right: 70px;
@@ -68,6 +76,8 @@ a:hover{
     border: 2px white dotted;
     border-radius: 10%;
 }
+
+
 .leftbottom{
     display: flex;
     position:absolute;
@@ -77,9 +87,7 @@ a:hover{
     font-size: 100%;
     justify-content: space-evenly;
 }
-h3{
-    color: white;
-}
+
 .box3 h3{
     color: red;
 }
