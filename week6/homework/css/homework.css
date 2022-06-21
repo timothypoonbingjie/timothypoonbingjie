@@ -860,7 +860,7 @@ a:hover{
     color: aliceblue;
 }
 
-.hour {
+.time {
     position: absolute;
     width: 230px;
     bottom: 70px;
@@ -872,14 +872,14 @@ a:hover{
     padding: 20px;
 }
 
-.hour p{
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.hour h4 {
+.time h4 {
     color: white;
     margin-top: 10px;
+}
+
+.time p{
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .contact {
