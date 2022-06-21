@@ -1,0 +1,906 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.item1 {
+    grid-area: logo;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: content1;
+}
+
+.item4 {
+    grid-area: pic1;
+}
+
+.item5 {
+    grid-area: pic2;
+}
+
+.item6 {
+    grid-area: content2;
+}
+
+.item7 {
+    grid-area: title1;
+}
+
+.item8 {
+    grid-area: column1;
+}
+
+.item9 {
+    grid-area: column2;
+}
+
+.item10 {
+    grid-area: column3;
+}
+
+.item11 {
+    grid-area: column4;
+}
+
+.item12 {
+    grid-area: column5;
+}
+
+.item13 {
+    grid-area: column6;
+}
+
+.item14 {
+    grid-area: title2;
+}
+
+.item15 {
+    grid-area: column7;
+}
+
+.item16 {
+    grid-area: column8;
+}
+
+.item17 {
+    grid-area: column9;
+}
+
+.item18 {
+    grid-area: dot;
+}
+
+.item19 {
+    grid-area: footer1;
+}
+
+.item20 {
+    grid-area: footer2;
+}
+
+.item21 {
+    grid-area: footer3;
+}
+
+.item22 {
+    grid-area: footer4;
+}
+
+.item23 {
+    grid-area: footer5;
+}
+
+.container {
+    display: grid;
+    position: relative;
+    grid-template-areas:
+        'logo menu'
+        'content1 pic1'
+        'pic2 content2';
+    background-image: url(../image/Bg\ Shape@2x.png);
+    background-size: 720px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.container>div {
+    padding: 20px 0;
+}
+
+.item1 {
+    align-items: center;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.item1 h2 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.item2 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.item2 a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.item3 {
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+}
+
+.box1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 180px;
+    left: 10px;
+}
+
+.box1 img {
+    padding: 20px;
+}
+
+.line {
+    border-left: 5px solid blue;
+    height: 60px;
+    position: absolute;
+    left: 40px;
+    bottom: 130px;
+}
+
+.box2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    padding-top: 100px;
+    text-align: left;
+    width: 500px;
+}
+
+.box2 button {
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: medium;
+}
+
+.box2 h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.box2 h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.box2 p{
+    font-size: 18px;
+}
+
+.mouse {
+    position: absolute;
+    bottom: 30px;
+    right:0;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item4 {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.item5 {
+    height: 600px;
+    width: 600px;
+    margin-left: 80px;
+}
+
+.item6 {
+    height: 250px;
+    width: 500px;
+    text-align: left;
+}
+
+.item6 h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.item6 h2 {
+    font-size: 20px;
+    margin: 0;
+    color: cornflowerblue;
+}
+
+.item6 p{
+    font-size: 20px;
+}
+
+.item6 button {
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: medium;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas:
+        'title1 title1 title1'
+        'column1 column2 column3'
+        'column4 column5 column6';
+    position: relative;
+    left: 50px;
+}
+
+.container2>div {
+    padding: 20px 20px;
+}
+
+.item7 {
+    height: 100px;
+    margin-bottom: 80px;
+        
+}
+
+.item7 h3{
+    color:cornflowerblue;
+    padding-left: 200px;
+}
+
+.item7 h1{
+    font-size: 50px;
+    padding-left: 200px;
+}
+
+.item8 {
+    position: relative;
+    left: 50px;
+    height: 300px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.item8 img{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item8 h4 {
+    margin-top: 30px;
+}
+
+.item8 button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item9 {
+    position: relative;
+    left: 40px;
+    height: 300px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+}
+
+.item9 img{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item9 h4 {
+    margin-top: 30px;
+}
+
+.item9 button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item10 {
+    position: relative;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+}
+
+.item10 img{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item10 h4 {
+    margin-top: 30px;
+}
+
+.item10 button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item11 {
+    position: relative;
+    left: 50px;
+    height: 300px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+}
+
+.item11 img{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item11 h4 {
+    margin-top: 30px;
+}
+
+.item11 button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item12 {
+    position: relative;
+    left: 40px;
+    height: 300px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+}
+
+.item12 img{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item12 h4 {
+    margin-top: 30px;
+}
+
+.item12 button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item13 {
+    position: relative;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+}
+
+.item13 img{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item13 h4 {
+    margin-top: 30px;
+}
+
+.item13 button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-areas:
+        'title2 title2 title2'
+        'column7 column8 column9'
+        'dot dot dot';
+    position: relative;
+    background-color: rgb(191, 207, 255);
+    margin-top: 20px;
+}
+
+.container3>div {
+    padding: 20px 0;
+}
+
+.item14 {
+    height: 100px;
+    text-align: center;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item14 h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.item14 h3 {
+    color: rgb(154, 57, 245);
+    margin-top: 30px;
+}
+
+.item15 {
+    position: relative;
+    text-align: center;
+    left: 120px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    background-color: white;
+}
+
+.item15 h1{
+    color: blue;
+    position: absolute;
+    bottom: 60px;
+    left: 140px;
+}
+
+.item15 h2{
+    margin-bottom: 60px;
+}
+
+.item1 p{
+    margin-bottom: 40px;
+}
+
+.item15 button {
+    position: absolute;
+    bottom: 20px;
+    right: 15%;
+    width: 120px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item16 {
+    position: relative;
+    text-align: center;
+    left: 100px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    background-color: white;
+}
+
+.item16 h1{
+    color: blue;
+}
+
+.item16 h2{
+    margin-bottom: 60px;
+}
+
+.item16 p{
+    margin-bottom: 40px;
+}
+
+.item16 button {
+    position: absolute;
+    bottom: 20px;
+    right: 15%;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item17 {
+    position: relative;
+    text-align: center;
+    left: 70px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    background-color: white;
+}
+
+.item17 h1{
+    color: blue;
+    position: absolute;
+    bottom: 83px;
+    left: 140px;
+}
+
+.item17 h2{
+    margin-bottom: 60px;
+}
+
+.item17 p{
+    margin-bottom: 40px;
+}
+
+.item17 button {
+    position: absolute;
+    bottom: 20px;
+    right: 15%;
+    width: 120px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.item18{
+    position: relative;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.footer1 {
+    height: 300px;
+    border: white solid 2px;
+    margin-top: 50px;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 h4 {
+    color:cornflowerblue;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.footer1 p {
+    font-weight: 400;
+    font-size: 2vw;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.footer1 p span {
+    font-weight: 900;
+}
+
+.footer1 form input[type=text] {
+    margin-top: 50px;
+    font-weight: 400;
+    width: 350px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(246, 247, 251, 255);
+    padding: 7px 15px;
+}
+
+.footer1 form input[type=submit] {
+    font-weight: 400;
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.footer2 {
+    display: flex;
+    background-image: url("../image/Bg\ Shape\ footer\ 2@2x.png"), url(../image/Bg\ Shape\ footer\ 1@2x.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 2000px 2000px, 3000px 2700px;
+    background-position: 50% 35%, 93% 39%;
+}
+
+.f1 {
+
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.f2 {
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+
+.icon2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 80px;
+    left: 250px;
+    font-size: 18px;
+    min-width: 80px;
+    padding: 30px;
+}
+
+.icon2 h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.icon2 h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.icon2 span {
+    padding: 10px
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    position: absolute;
+    width: 180px;
+    bottom: 62px;
+    left: 600px;
+    color: aliceblue;
+}
+
+.link a {
+    padding-top: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link h4 {
+    color: aliceblue;
+}
+
+.hour {
+    position: absolute;
+    width: 230px;
+    bottom: 70px;
+    right: 580px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.hour p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.hour h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.contact {
+    position: absolute;
+    width: 180px;
+    bottom: 130px;
+    right: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+    padding: 20px;
+}
+
+.contact a {
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact h4 {
+    color: white;
+}
