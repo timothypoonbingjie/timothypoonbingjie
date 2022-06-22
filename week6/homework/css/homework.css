@@ -941,6 +941,10 @@ a:hover{
         left: 120px;
     }
 
+    .item7{
+        position: relative;
+        right: 160px;
+    }
     .item9{
         position: absolute;
         top: 620px;
@@ -970,6 +974,11 @@ a:hover{
         right: 410px;
     }
 
+    .item14{
+        position: relative;
+        right: 80px;
+    }
+
     .mouse{
         display: none;
     }
@@ -985,8 +994,9 @@ a:hover{
         height: 1500px;
     }
     .item6{
-        position: absolute;
-        right: 450px;
+        position: relative;
+        right: 750px;
+        height: 30px;
     }
 
     .form{
@@ -1006,18 +1016,26 @@ a:hover{
 
     .time{
         position: absolute;
-        right: 200px;
+        right: 260px;
     }
 
     .contact{
         position: absolute;
         margin-top: 200px;
-        left: 130px;
+        left: 170px;
     }
 
     .link{
         position: absolute;
-        left: 350px;
+        left: 200px;
     }
-    
+    .dot{
+        display: none;
+    }
+
+    .icon2{
+        display: none;
+    }
+
+
 }
