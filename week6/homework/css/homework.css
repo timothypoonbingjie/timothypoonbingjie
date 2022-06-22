@@ -1,7 +1,4 @@
-body, html{
-    height: 100%;
-    margin: 0;
-}
+
 .item1 {
     grid-area: logo;
 }
@@ -795,6 +792,7 @@ a:hover{
     width: 50%;
     height: 500px;
     position: relative;
+    right: 120px;
 }
 
 .f2 {
@@ -903,4 +901,117 @@ a:hover{
 
 .contact h4 {
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    body,html{
+      width: 800px;
+      margin: 0;
+    }
+    .item2{
+        display: none;
+    }
+    .item4{
+        display: none;
+    }
+    .item5{
+        display: none;
+    }
+
+    .item15{
+        position: absolute;
+        top: 150px;
+    }
+
+    .item16{
+        position:absolute;
+        top: 550px;
+        left: 120px;
+    }
+
+    .item17{
+        position: absolute;
+        top: 950px;
+        left: 120px;
+    }
+
+    .item9{
+        position: absolute;
+        top: 620px;
+        left: 45px;
+    }
+
+    .item10{
+        position: absolute;
+        top: 1030px;
+        right: 413px;
+    }
+    
+    .item11{
+        position: absolute;
+        top: 1440px;
+    }
+    
+    .item12{
+        position: absolute;
+        top: 1850px;
+        left: 50px;
+    }
+    
+    .item13{
+        position: absolute;
+        top: 2250px;
+        right: 410px;
+    }
+
+    .mouse{
+        display: none;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+        height: 2700px;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+    }
+    .item6{
+        position: absolute;
+        right: 450px;
+    }
+
+    .form{
+        position: relative;
+    }
+
+    .new {
+        position: relative;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .icon2{
+        position: absolute;
+        left: 90px;
+    }
+
+    .time{
+        position: absolute;
+        right: 200px;
+    }
+
+    .contact{
+        position: absolute;
+        margin-top: 200px;
+        left: 130px;
+    }
+
+    .link{
+        position: absolute;
+        left: 350px;
+    }
+    
 }
