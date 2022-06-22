@@ -128,18 +128,19 @@
     flex-direction: row;
     align-items: center;
     margin-left: 0px;
+    width: 0px;
 }
 
 .item2 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: medium;
     padding: 10px;
 }
 
 a:hover{
     text-decoration: underline;
-    color: black;
+    color: rgb(34, 181, 56);
 }
 
 .item3 {
@@ -274,7 +275,8 @@ a:hover{
         'column1 column2 column3'
         'column4 column5 column6';
     position: relative;
-    left: 50px;
+    left: 230px;
+    width: 0px;
 }
 
 .container2>div {
@@ -299,7 +301,7 @@ a:hover{
 
 .item8 {
     position: relative;
-    left: 50px;
+    left: 0px;
     height: 300px;
     width: 300px;
     border: none;
@@ -388,7 +390,7 @@ a:hover{
 
 .item10 {
     position: relative;
-    right: 0;
+    left: 75px;
     height: 300px;
     width: 300px;
     border: none;
@@ -432,7 +434,7 @@ a:hover{
 
 .item11 {
     position: relative;
-    left: 50px;
+    left: 0px;
     height: 300px;
     width: 300px;
     border: none;
@@ -518,7 +520,7 @@ a:hover{
 
 .item13 {
     position: relative;
-    right: 0;
+    left: 75px;
     height: 300px;
     width: 300px;
     border: none;
@@ -914,69 +916,88 @@ a:hover{
       width: 800px;
       margin: 0;
     }
-    .item2{
-        display: none;
+
+    .container{
+        height: 750px;
     }
+    .item2{
+        position: relative;
+        top: 50px;
+        right: 350px;
+    }
+
     .item4{
-        display: none;
+        position:relative;
+        right: 520px;
+        opacity: 0.3;
+        bottom: 130px;
     }
     .item5{
-        display: none;
+        position: relative;
+        right: 50px;
+        opacity: 0.3;
     }
 
     .item15{
         position: absolute;
         top: 150px;
+        left: 210px
     }
 
     .item16{
         position:absolute;
         top: 550px;
-        left: 120px;
+        left: 210px;
     }
 
     .item17{
         position: absolute;
         top: 950px;
-        left: 120px;
+        left: 210px;
     }
 
     .item7{
         position: relative;
         right: 160px;
     }
+
+    .item8{
+        position: absolute;
+        top: 350px;
+    }
     .item9{
         position: absolute;
-        top: 620px;
-        left: 45px;
+        top: 730px;
+        left: 0px;
     }
 
     .item10{
         position: absolute;
-        top: 1030px;
-        right: 413px;
+        top: 1110px;
+        left: 0px;
     }
     
     .item11{
         position: absolute;
-        top: 1440px;
+        top: 1500px;
+        left: 0px;
     }
     
     .item12{
         position: absolute;
-        top: 1850px;
-        left: 50px;
+        top: 1870px;
+        left: 0px;
     }
     
     .item13{
         position: absolute;
         top: 2250px;
-        right: 410px;
+        left: 0px;
     }
 
     .item14{
         position: relative;
-        right: 80px;
+        left: 0px;
     }
 
     .mouse{
@@ -991,7 +1012,7 @@ a:hover{
     .container3{
         display: flex;
         flex-direction: column;
-        height: 1500px;
+        height: 1400px;
     }
     .item6{
         position: relative;
