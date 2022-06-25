@@ -114,6 +114,7 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    background-image: url(../image/who\ we\ are\ background@2x.png);
 }
 .pic2{
     padding-right: 80px;
@@ -361,7 +362,6 @@
 .container4{
     padding: 30px;
     background-color: rgb(210, 213, 239);
-
 }
 
 .text4{
@@ -478,11 +478,14 @@
 }
 
 .footer{
-    border:  solid yellow 3px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-image: url(../image/mountain.jpg);
+    background-repeat: none;
+    background-position: bottom;
+    background-size: 1500px;
 }
 
 .footer h3{
@@ -524,28 +527,108 @@
 }
 
 .box5{
-    border: solid green 3px;
     padding: 30px;
+    height: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+    background-repeat: none;
+    background-size: 1750px;
+    background-position: center;
 }
 
 .logo{
     border: solid lightblue 3px;
-    padding:  30px;
+    padding:  20px;
+    height: 300px;
+    align-self: flex-end;
+    text-align: right;
+    width: 200px;
+}
+
+.logo h2{
+    font-size: 60px;
+    color: white;
+}
+
+.logo h3{
+    color: white;
+    margin-top: -30px;
+    font-size: 30px;
+}
+
+.logo span{
+    padding: 15px;
 }
 
 .links{
     border: solid lightblue 3px;
-    padding:  30px;
+    padding:  20px;
+    padding-top: 0px;
+    align-self: flex-end;
+}
+
+.links h4{
+    color: white;
+    font-size: 30px;
+}
+
+.links a{
+    color: white;
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links a:hover{
+    color:black;
+    text-decoration: underline;
 }
 
 .time{
     border: solid lightblue 3px;
-    padding:  30px;
+    padding:  20px;
+    height: 270px;
+    align-self: flex-end;
+}
+
+.time h3{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.time a{
+    display: flex;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
 }
 
 .contact{
     border: solid lightblue 3px;
-    padding:  30px;
+    padding:  20px;
+    height: 250px;
+    align-self: flex-end;
+    text-align: left;
+}
+
+.contact h4{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.contact img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact a{
+    display: flex;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 20px;
 }
