@@ -1,0 +1,32 @@
+input{
+    margin:5px;
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(198, 255, 236);
+    
+}
+
+fieldset{
+    margin-left: -10px;
+    margin-right:-10px ;
+}
+
+.between{
+    display: flex;
+}
+
+#submit{
+    margin-left: 180px;
+    border-radius: 30px;
+    background-color: darkcyan;
+    width: 100px;
+    color: white;
+    height: 35px;
+}
+
+#country{
+    width: 250px;
+}
