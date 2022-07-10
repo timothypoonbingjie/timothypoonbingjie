@@ -263,7 +263,7 @@
     .title{
         width: 100%;
         max-width: 100%;
-        height: auto;
+        height: 300px;
         text-align: center;
 
     }
@@ -337,7 +337,7 @@
         width: 100%;
         margin: auto;
     }
-    
+
     .menu3 a{
         font-size: 20px;
         display: flex;
