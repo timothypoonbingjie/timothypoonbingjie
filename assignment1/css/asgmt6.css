@@ -1,0 +1,115 @@
+.container{
+    width: 1500px;
+    background-color: rgb(180, 175, 175);
+  }
+
+
+.topnav {
+    width: 1500px;
+    overflow: hidden;
+    background-color: rgb(171, 171, 171);
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 25px;
+
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  .topnav a.active {
+    float: left;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  .about{
+    background-color: rgb(102, 101, 96);
+    height: 100px;
+    width: 1500px;
+    text-align: center;
+  }
+ 
+  h1{
+    color: rgb(250, 255, 0);
+  }
+
+  .text{
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/yuanzhigong.jpg);
+    width: 1500px;
+    height: 800px;
+  }
+
+  .text1{
+    margin-top: 50px;
+  }
+
+  .text2{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 150px;
+  }
+
+  .about2{
+    background-color: rgb(102, 101, 96);
+    height: 100px;
+    width: 1500px;
+    text-align: center;
+  }
+
+  .contact{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+
+  input{
+    margin:5px;
+}
+
+
+form{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(249, 205, 255);
+    
+}
+
+legend{
+    text-align: center;
+}
+
+
+
+.between{
+    display: flex;
+}
+
+#submit{
+    margin-left: 180px;
+    border-radius: 30px;
+    background-color: rgb(230, 230, 230);
+    width: 100px;
+    color: black;
+    height: 35px;
+}
+
+#country{
+    width: 250px;
+}
