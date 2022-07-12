@@ -71,7 +71,7 @@
     text-align: center;
   }
 
-  .contact{
+  .contactme{
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
@@ -112,4 +112,91 @@ legend{
 
 #country{
     width: 250px;
+}
+
+.footer{
+  width: 1500px;
+  background-color: rgb(171, 171, 171);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer h1{
+  color: red;
+}
+
+.logo2{
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.menu2{
+  width: 30%;
+  text-align: center;
+  align-items: center;
+
+}
+
+.menu2 a{
+  width: 30%;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu3{
+  text-align: center;
+  align-items: center;
+  word-spacing: 30px;
+}
+.menu3 a{
+  justify-content: space-evenly;
+}
+
+.menu4{
+  text-align: center;
+  align-items: center;
+  word-spacing: 40px;
+}
+
+.menu4 a{
+  justify-content: space-evenly;
+}
+
+.hover a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.contact{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.padding2{
+  padding: 30px;
+}
+
+.github{
+  background-color: rgb(171, 171, 171);
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+
+}
+
+.github a{
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.github a:hover{
+
+  text-decoration: underline;
 }
