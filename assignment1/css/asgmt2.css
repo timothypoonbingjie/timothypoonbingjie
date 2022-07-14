@@ -76,6 +76,10 @@ html{
     margin-top: 30px;
   }
 
+  .sekiro img{
+    max-width: 80%;
+  }
+
   .sekiro h1{
     color: rgb(247, 204, 71);
     font-size: 40px;
@@ -101,6 +105,10 @@ html{
     text-align: center;
   }
 
+  .kuro img{
+    max-width: 80%;
+  }
+
   .kuro h1{
     color: rgb(247, 204, 71);
     font-size: 40px;
@@ -122,6 +130,11 @@ html{
     background-color: rgb(118, 33, 33);
     height:auto;
     text-align: center;
+  }
+
+
+  .emma img{
+    max-width: 80%;
   }
 
   .emma h1{
@@ -147,6 +160,10 @@ html{
     text-align: center;
   }
 
+  .isshin img{
+    max-width: 80%;
+  }
+
   .isshin h1{
     color: rgb(247, 204, 71);
     font-size: 40px;
@@ -168,6 +185,10 @@ html{
     background-color: rgb(118, 33, 33);
     height:auto;
     text-align: center;
+  }
+
+  .owl img{
+    max-width: 80%;
   }
 
   .owl h1{
