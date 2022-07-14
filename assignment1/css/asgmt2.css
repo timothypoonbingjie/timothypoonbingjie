@@ -269,64 +269,7 @@
         width: 100%;
     }
 
-    .footer{
-        width: 100%;
-    }
-
-    .logo2{
-        width: 25%;
-    }
-
-    .menu2{
-        width: 50%;
-
-    }
-
-    .footer h1{
-        font-size: 30px;
-    }
-    .contact{
-        width: 25%;
-    }
-
-    .contact img{
-        width: 100%;
-        margin: auto;
-    }
-
-    .menu3 a{
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: auto;
-    }
-
-    .menu4 a{
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: auto;
-    }
-
-
-    .github{
-        width: 100%;
-    }
-
-    .github img{
-        width: 50%;
-        margin-left: 80px;
-    }
-
-    .github2{
-        display:none;
-    }
-
-    .contact h1{
-        display: none;
-    }
+ 
 
     .box1{
       margin: auto;
@@ -342,14 +285,14 @@
 
     .sekiro{
         width: 100%;
-        height: 770px;
+        height: 630px;
 
     }
     .sekiro img{
         width: 100%;
         max-width: 100%;
         margin: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .sekiro h1{
@@ -366,14 +309,14 @@
 
     .kuro{
         width: 100%;
-        height: 770px;
+        height: 620px;
 
     }
     .kuro img{
         width: 100%;
         max-width: 100%;
         margin: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .kuro h1{
@@ -391,14 +334,14 @@
     
     .emma{
         width: 100%;
-        height: 770px;
+        height: 650px;
 
     }
     .emma img{
         width: 100%;
         max-width: 100%;
         margin: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .emma h1{
@@ -415,14 +358,14 @@
 
     .isshin {
         width: 100%;
-        height: 770px;
+        height: 650px;
 
     }
     .isshin img{
         width: 100%;
         max-width: 100%;
         margin: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .isshin h1{
@@ -439,14 +382,14 @@
 
     .owl {
         width: 100%;
-        height: 770px;
+        height: 600px;
 
     }
     .owl img{
         width: 100%;
         max-width: 100%;
         margin: auto;
-        height: 500px;
+        height: 300px;
     }
 
     .owl h1{
@@ -460,4 +403,70 @@
     .owl h3{
         font-size: 15px;
     }
+
+    .footer{
+      width: 100%;
+  }
+
+  .logo2{
+      width: 25%;
+  }
+
+  .logo2 img{
+    width: 100%;
+}
+
+
+  .menu2{
+      width: 50%;
+  }
+
+
+  .footer h1{
+      font-size: 30px;
+  }
+  .contact{
+      width: 25%;
+  }
+
+  .contact img{
+      width: 100%;
+      margin: auto;
+  }
+
+  .menu3 a{
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+  }
+
+  .menu4 a{
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+  }
+
+
+  .github{
+      width: 100%;
+  }
+
+  .github img{
+      width: 100%;
+      margin: auto;
+
+  }
+
+  .github2{
+      display:none;
+  }
+
+  .contact h1{
+      display: none;
+  }
+
 }
