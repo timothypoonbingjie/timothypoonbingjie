@@ -7,7 +7,7 @@ table {
 table,
 th,
 td {
-    border-collapse: separate;
+    border-collapse: collapse;
 }
 
 th,
@@ -19,36 +19,47 @@ td {
 }
 
 td:nth-child(1){
+    color:#55417f;
     border: 3px solid #847f9f;
     background-color: #d0c9e0;
 }
 
 td:nth-child(2){
+    color:#1f81a4;
     border: 3px solid #7ab1cb;
     background-color: #daecf6;
 }
 
 td:nth-child(3){
+    color: #145d76;
     border: 3px solid #3d667f;
     background-color: #daecf6;
 }
 
 td:nth-child(4){
+    color: #5a6227;
     border: 3px solid #9b9f83;
     background-color: #EEEfe3;
 }
 
 td:nth-child(5){
+    color: #9da457;
     border: 3px solid #bdc28f;
     background-color: #EEEfe3;
 }
 
 td:nth-child(6){
+    color: #319d99;
     border: 3px solid #86c1be;
     background-color: #E4f3f1;
 }
 
 td:nth-child(7){
+    color: #ab1d16;
     border: 3px solid #a57273;
     background-color: #f1cfd5;
+}
+
+.e{
+    border: none !important;
 }

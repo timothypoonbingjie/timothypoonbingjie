@@ -1,9 +1,11 @@
 html{
     background-color: black;
 }
+
 .container{
     width: 1500px;
     background-color: black;
+
 }
 
 .title{
@@ -227,6 +229,7 @@ html{
   @media screen and (max-width: 600px){
     .container{
         width: 100%;
+        margin: auto;
     }
 
     .topnav{
