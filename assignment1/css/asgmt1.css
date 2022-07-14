@@ -1,15 +1,13 @@
-html{
-    background-color: black;
-}
+
 
 .container{
-    width: 1500px;
+    width: 100%;
     background-color: black;
 
 }
 
 .title{
-    width: 1500px;
+
     height: 485px;
     padding-top: 70px;
 }
@@ -28,12 +26,12 @@ html{
 }
 
 .prize{
-    width: 1500px;
+
     height: 853px;
     background-image: url(../image/sekiro77.jpg);
     background-repeat: none;
     background-position: center;
-
+    background-size: cover;
 
 }
 
@@ -46,7 +44,7 @@ html{
 }
 
 .text{
-    width: 1500px;
+
     height: 300px;
     text-align: center;
     padding-top: 100px ;    
@@ -59,7 +57,7 @@ html{
 
 .website{
     background-color: rgb(187, 152, 99);
-    width: 1500px;
+
     height: 300px;
 }
 
@@ -88,7 +86,7 @@ html{
 }
 
 .footer{
-    width: 1500px;
+
     background-color: rgb(171, 171, 171);
     display: flex;
     justify-content: space-evenly;
@@ -175,7 +173,7 @@ html{
 }
 
 .topnav {
-    width: 1500px;
+
     overflow: hidden;
     background-color: rgb(171, 171, 171);
   }

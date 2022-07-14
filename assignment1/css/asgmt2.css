@@ -2,12 +2,11 @@ html{
   background-color:  rgb(118, 33, 33);
 }
 .container{
-    width: 1500px;
+    width: 100%;
     background-color: rgb(118, 33, 33);
   }
 
 .topnav {
-    width: 1500px;
     overflow: hidden;
     background-color: rgb(171, 171, 171);
   }
@@ -38,14 +37,43 @@ html{
 
 
   .box1{
-    width: 1500px;
-    height: 550px;
+    width: 100%;
+    display: flex;
     text-align: center;
   }
 
+  .one{
+    width: 20%
+  }
+  .two{
+    width: 20%
+  }
+  .three{
+    width: 20%
+  }
+  .four{
+    width: 20%
+  }
+  .five{
+    width: 20%
+  }
+
+  .title{
+    height: 200px;
+}
+
+.title h1{
+    color: rgb(250, 255, 0);
+    text-align: center;
+    font-size: 75px;
+
+}
+
   .sekiro{
     background-color: rgb(118, 33, 33);
-    height:1030px;
+    height:auto;
+    text-align: center;
+    margin-top: 30px;
   }
 
   .sekiro h1{
@@ -66,9 +94,11 @@ html{
 
   }
 
+
   .kuro{
     background-color: rgb(118, 33, 33);
-    height:1030px;
+    height:auto;
+    text-align: center;
   }
 
   .kuro h1{
@@ -90,7 +120,8 @@ html{
 
   .emma{
     background-color: rgb(118, 33, 33);
-    height:1030px;
+    height:auto;
+    text-align: center;
   }
 
   .emma h1{
@@ -112,7 +143,8 @@ html{
 
   .isshin {
     background-color: rgb(118, 33, 33);
-    height:1030px;
+    height:auto;
+    text-align: center;
   }
 
   .isshin h1{
@@ -134,7 +166,8 @@ html{
 
   .owl {
     background-color: rgb(118, 33, 33);
-    height:1030px;
+    height:auto;
+    text-align: center;
   }
 
   .owl h1{
@@ -155,7 +188,6 @@ html{
   }
 
   .footer{
-    width: 1500px;
     background-color: rgb(171, 171, 171);
     display: flex;
     justify-content: space-evenly;
@@ -279,13 +311,7 @@ html{
       width: 100%;
       text-align: center;
     }
-
-    .box1 img{
-        width: 40%;
-        height: 32%;
-        
-    }
-
+    
     .sekiro{
         width: 100%;
         height: 630px;
@@ -471,5 +497,18 @@ html{
   .contact h1{
       display: none;
   }
+
+  .title{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.title h1{
+    font-size: 30px;
+    text-align: center;
+}
+
 
 }
