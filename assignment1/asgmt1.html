@@ -10,33 +10,51 @@
 </head>
 
 <body>
-<div class="topnav" id="myTopnav">
-   <a href="#" class="active"><img src="image/logo2.png" width="158px" height="76px"></a>
-   <a href="https://timothypoonbingjie.github.io/assignment1/asgmt6.html">关于我</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt5.html">画册</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt4.html">故事背景</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt3.html">武器介绍</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt2.html">游戏角色</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt1.html#">封面</a>
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-     <i class="fa fa-bars"></i>
-   </a>
- </div>
+    <div id="myNav" class="overlay">
 
-<script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt1.html#">封面</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt2.html">游戏角色</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt3.html">武器&故事</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt5.html">画册</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt6.html">关于我</a>
+    
+    
+    
+        </div>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+
+        <div id="logo">
+            <img src="image/logo2.png" height="50px"/>
+        </div>
+
+        <div>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt1.html#">封面</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt2.html">游戏角色</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt3.html">武器&故事</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt5.html">画册</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt6.html">关于我</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
     </script>
 
     <div class="container">
         
-        <img src="image/sekiro3.jpg" max-width="100%" height="auto">
+        <div class="containerimg"><img src="image/sekiro3.jpg" max-width="100%" height="auto"></div>
         <div class="title">
             <h1>只狼</h1>
             <h2>影逝二度</h2>
@@ -98,7 +116,7 @@
         </div>
         <div class="github">
             <a href="https://timothypoonbingjie.github.io/"><img src="image/github.png" width="150px" height="70px"></a>
-            <a href="https://timothypoonbingjie.github.io/" class="github2">timothypoonbingjie.github.io</a>
+            
         </div>
     </div>
 </body>

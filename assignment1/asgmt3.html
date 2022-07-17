@@ -9,32 +9,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<div class="topnav" id="myTopnav">
-    <a href="#" class="active"><img src="image/logo2.png" width="158px" height="76px"></a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt6.html">关于我</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt5.html">画册</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt4.html">故事背景</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt3.html">武器介绍</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt2.html">游戏角色</a>
-    <a href="https://timothypoonbingjie.github.io/assignment1/asgmt1.html#">封面</a>
-
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
-
 <body>
+    <div id="myNav" class="overlay">
 
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt1.html#">封面</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt2.html">游戏角色</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt3.html">武器&故事</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt5.html">画册</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt6.html">关于我</a>
+        </div>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+
+        <div id="logo">
+            <img src="image/logo2.png" height="50px"/>
+        </div>
+
+        <div>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt1.html#">封面</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt2.html">游戏角色</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt3.html">武器&故事</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt5.html">画册</a>
+            <a href="https://timothypoonbingjie.github.io/assignment1/asgmt6.html">关于我</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+<div class="container">
+
+    <div class="weapon">
+        <h1>武器</h1>
+    </div>
+    
+    <div class="weapon1">
+        <div class="pic1">
+            <img src="image/weapons.jpg" max-width="100%">
+        </div>
+        <div class="text1">
+            <h2>楔丸</h2>
+            <a>在《只狼》中，「楔丸」是主人公最早入手的兵器。 它没有虎彻、村正般的传奇故事，名字本身也包含了维系纽带的家常意味：即便忍者注定是杀人的宿命，也不可舍弃仅有的一点慈悲之心。</a>
+        </div>
+    </div>
+
+    <div class="weapon2">
+        <div class="text2">
+            <h2>红色不死斩：拜泪</h2>
+            <a>不死斩是只狼里的武器
+                是仙峰寺收藏的武器，传世的有两把，相传必须是拥有不死之力的人方可拔刀
+                
+                “拜泪”，红色不死斩，是取樱龙泪的仪式刀。
+                </a>
+        </div>
+        <div class="pic2">
+            <img src="image/busizhan.jpg" max-width="100%">
+        </div>
+      
+    </div>
+
+    <div class="weapon3">
+        <div class="pic3">
+            <img src="image/kaimen.jpg" max-width="100%">
+        </div>
+        <div class="text3">
+            <h2>黑色不死斩：开门</h2>
+            <a>开门，黑色不死斩，是献祭不死之体从黄泉召回亡者的仪式刀。
+                两把不死斩均有斩杀不死者的能力，开门无法获得</a>
+        </div>
+    </div>
+
+    <div class="weapon4">
+        <div class="text4">
+            <h2>忍义手</h2>
+            <a>主人遭掳时被葦名弦一郎斩掉左手臂，之後從佛雕師（隻猩，即飛猿）得到了「忍義手」</a>
+        </div>
+        <div class="pic4">
+            <img src="image/renyishou.jpg" max-width="100%">
+        </div>
+        
+    </div>
+
+
+
+</div>
 </body>
 </html>
