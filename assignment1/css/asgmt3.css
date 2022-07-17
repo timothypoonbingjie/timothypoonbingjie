@@ -324,6 +324,133 @@ html{
       display: flex;
       flex-direction: column;
   }
+  .topnav.responsive {
+    position: relative;
+}
+
+.topnav a:not(:empty) {
+    display: none;
+}
+
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+  .container{
+      width: 100%;
+      margin: auto;
+  }
+
+  .weapon h1{
+    font-size: 40px;
+  }
+
+  .weapon1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic1 img{
+    width: 100%;
+  }
+
+  .text1{
+    padding: 0;
+  }
+
+  .weapon2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .pic2 img{
+    width: 100%;
+  }
+
+  .text2{
+    padding: 0;
+  }
+
+  .weapon3{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic3 img{
+    width: 100%;
+  }
+
+  .text3{
+    padding: 0;
+  }
+
+  .weapon4{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .pic4 img{
+    width: 100%;
+  }
+
+  .text4{
+    padding: 0;
+  }
+
+  .story{
+    background-color:  rgb(162, 97, 97);
+  }
+  .story h1{
+    font-size: 30px;
+    background-color: rgb(134, 31, 31);
+  }
+
+  .bigbox{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .box1{
+    margin: auto;
+    margin-bottom: 70px;
+  }
+
+
+  .box2{
+    margin: auto;
+  }
+
+  .story a{
+    font-size: 25px;
+  }
+  
+  .box3{
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  
+  .box4{
+    margin: auto;
+    margin-bottom: 70px;
+  }
+
+  .bigbox2{
+    display: flex;
+    flex-direction: column;
+  }
   }
 
 

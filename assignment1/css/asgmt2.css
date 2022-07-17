@@ -91,7 +91,11 @@ html{
     margin-left: 20px;
   }
   
-
+  .clickme{
+    padding: 20px;
+    text-align: center;
+    color: azure;
+  }
 
   .box1{
     width: 100%;
@@ -145,7 +149,7 @@ html{
   }
 
   .sekiro h2{
-    color: white;
+    color: rgb(149, 149, 149);
     text-align: center;
   }
 
@@ -174,7 +178,7 @@ html{
   }
 
   .kuro h2{
-    color: white;
+    color: rgb(149, 149, 149);
     text-align: center;
   }
 
@@ -202,7 +206,7 @@ html{
   }
 
   .emma h2{
-    color: white;
+    color: rgb(149, 149, 149);
     text-align: center;
   }
 
@@ -229,8 +233,8 @@ html{
   }
 
   .isshin h2{
-    color: white;
     text-align: center;
+    color: rgb(149, 149, 149);
   }
 
   .isshin h3{
@@ -256,7 +260,7 @@ html{
   }
 
   .owl h2{
-    color: white;
+    color: rgb(149, 149, 149);
     text-align: center;
   }
 
@@ -454,6 +458,7 @@ html{
 
     .isshin h3{
         font-size: 15px;
+        text-align: left;
     }
 
     
@@ -490,78 +495,18 @@ html{
 
     .owl h3{
         font-size: 15px;
+        text-align: left;
     }
 
     .footer{
       width: 100%;
-  }
-
-  .logo2{
-      width: 25%;
-  }
-
-  .menu2{
-      width: 50%;
-
-  }
-
-  .footer h1{
-      font-size: 30px;
-  }
-  .contact{
-      width: 25%;
-  }
-
-  .contact img{
-      width: 100%;
       margin: auto;
-  }
-
-  .menu3 a{
-      font-size: 20px;
+      height: auto;
+    }
+    .footer a{
       display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin: auto;
-  }
-
-  .menu4 a{
-      font-size: 20px;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin: auto;
-  }
-
-
-  .github{
-      width: 100%;
-  }
-
-  .github img{
-      width: 50%;
-      margin-left: 80px;
-  }
-
-  .github2{
-      display:none;
-  }
-
-  .contact h1{
-      display: none;
-  }
-
-  .title{
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-
-}
-.title h1{
-    font-size: 30px;
-    text-align: center;
-}
-
+      flex-wrap: wrap;
+      padding: 5px;
+    }
 
 }
